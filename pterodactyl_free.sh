@@ -6,8 +6,8 @@ version: '3.8'
 x-common:
     database:
         &db-environment
-        MYSQL_PASSWORD: &db_password "hostify"
-        MYSQL_ROOT_PASSWORD: &db_password "hostify"
+        MYSQL_PASSWORD: &db_password "CHANGE_ME"
+        MYSQL_ROOT_PASSWORD: &db_password "CHANGE_ME_TOO"
     panel:
         &panel-environment
         APP_URL: "https://pterodactyl.example.com"
